@@ -21,7 +21,7 @@ public class StepDefination {
 
 	@When("user enter username and password")
 	public void user_enter_username_and_password() {
-		driver.findElement(By.name("username")).sendKeys("xyz@gmail.com");
+		driver.findElement(By.name("username")).sendKeys("abccc@gmail.com");
 		try {
 			Thread.sleep(2000);
 		} catch (InterruptedException e) {
